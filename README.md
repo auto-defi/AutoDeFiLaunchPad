@@ -2,8 +2,6 @@
 
 <div align="center">
 
-![LaunchPad Banner](https://i.pinimg.com/736x/8f/d5/b9/8fd5b957fcce04f15127e7b363254ee8.jpg)
-
 **The Ultimate Bonding Curve Token Launchpad on Hedera Blockchain (EVM)**
 
 [![Next.js](https://img.shields.io/badge/Next.js-15.5-black)](https://nextjs.org/)
@@ -860,8 +858,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 <div align="center">
 
-**Built with ❤️ by the LaunchPad Team**
+**Built with ❤️ by the AutoDeFi LaunchPad Team**
 
-[Website](#) • [GitHub](https://github.com/auto-defi/AutoDeFiLaunchPad) • [Factory](https://hashscan.io/testnet/contract/0xEEBed6dC5e12Ee6379A59c7C35fF80cE7853FE7B)
+[Website](https://AutoDeFi.lol) • [GitHub](https://github.com/auto-defi/AutoDeFiLaunchPad) • [Factory](https://hashscan.io/testnet/contract/0xEEBed6dC5e12Ee6379A59c7C35fF80cE7853FE7B)
 
 </div>
