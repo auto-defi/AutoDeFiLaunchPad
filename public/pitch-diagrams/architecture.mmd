@@ -1,0 +1,11 @@
+graph TD
+  U[User / Wallet] --> FE[Next.js + EIP-1193]
+  FE --> API[Next.js API Routes]
+  API --> DB[(Postgres via Prisma)]
+  API -->|on demand| RPC[Hedera EVM RPC]
+  FE -->|read / tx| RPC
+  RPC --> SC[Factory / Pool / Token]
+  CRON[Vercel Cron] --> IDX[Indexer]
+  IDX -->|events->metrics| DB
+  FE -->|metrics| API
+

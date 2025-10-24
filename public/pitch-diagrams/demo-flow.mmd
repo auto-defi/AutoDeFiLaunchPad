@@ -1,0 +1,14 @@
+sequenceDiagram
+  autonumber
+  participant Creator
+  participant Frontend as Next.js App
+  participant Factory as Factory Contract
+  participant Indexer
+  participant DB as Postgres/Prisma
+  Creator->>Frontend: Fill Launch Form
+  Frontend->>Factory: createToken(name, symbol, URIs, initialHBAR)
+  Factory-->>Frontend: token & pool addresses
+  Indexer->>Factory: Listen to events
+  Indexer->>DB: Snapshot + metrics
+  Frontend->>DB: Read metrics for dashboard
+

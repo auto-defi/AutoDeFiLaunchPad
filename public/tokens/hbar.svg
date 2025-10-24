@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="32" cy="32" r="31" fill="#000000"/>
+  <circle cx="32" cy="32" r="31" stroke="#111111" stroke-width="2" fill="none"/>
+  <!-- Hedera H mark -->
+  <g stroke="#FFFFFF" stroke-width="4" stroke-linecap="round">
+    <!-- Vertical bars of H -->
+    <line x1="22" y1="16" x2="22" y2="48"/>
+    <line x1="42" y1="16" x2="42" y2="48"/>
+    <!-- Middle horizontal bar -->
+    <line x1="22" y1="32" x2="42" y2="32"/>
+  </g>
+</svg>
+
