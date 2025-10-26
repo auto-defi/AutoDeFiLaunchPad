@@ -1,0 +1,54 @@
+[
+  {
+    "type": "event",
+    "name": "TokenCreated",
+    "inputs": [
+      { "name": "token", "type": "address", "indexed": false },
+      { "name": "pool", "type": "address", "indexed": false },
+      { "name": "name", "type": "string", "indexed": false },
+      { "name": "symbol", "type": "string", "indexed": false },
+      { "name": "iconURI", "type": "string", "indexed": false },
+      { "name": "projectURI", "type": "string", "indexed": false },
+      { "name": "creator", "type": "address", "indexed": true }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "function",
+    "name": "createToken",
+    "stateMutability": "payable",
+    "inputs": [
+      { "name": "name", "type": "string" },
+      { "name": "symbol", "type": "string" },
+      { "name": "iconURI", "type": "string" },
+      { "name": "projectURI", "type": "string" },
+      { "name": "initialBuyAmountWei", "type": "uint256" }
+    ],
+    "outputs": [
+      { "name": "token", "type": "address" },
+      { "name": "pool", "type": "address" }
+    ]
+  },
+  {
+    "type": "function",
+    "name": "getPool",
+    "stateMutability": "view",
+    "inputs": [ { "name": "token", "type": "address" } ],
+    "outputs": [ { "name": "pool", "type": "address" } ]
+  },
+  {
+    "type": "function",
+    "name": "allTokens",
+    "stateMutability": "view",
+    "inputs": [ { "name": "index", "type": "uint256" } ],
+    "outputs": [ { "name": "token", "type": "address" } ]
+  },
+  {
+    "type": "function",
+    "name": "allTokensLength",
+    "stateMutability": "view",
+    "inputs": [],
+    "outputs": [ { "name": "length", "type": "uint256" } ]
+  }
+]
+

@@ -1,0 +1,65 @@
+[
+  {
+    "type": "event",
+    "name": "Bought",
+    "inputs": [
+      { "name": "buyer", "type": "address", "indexed": true },
+      { "name": "hbarInWei", "type": "uint256", "indexed": false },
+      { "name": "tokensOut", "type": "uint256", "indexed": false }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Sold",
+    "inputs": [
+      { "name": "seller", "type": "address", "indexed": true },
+      { "name": "tokensIn", "type": "uint256", "indexed": false },
+      { "name": "hbarOutWei", "type": "uint256", "indexed": false }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "function",
+    "name": "token",
+    "stateMutability": "view",
+    "inputs": [],
+    "outputs": [ { "name": "token", "type": "address" } ]
+  },
+  {
+    "type": "function",
+    "name": "buy",
+    "stateMutability": "payable",
+    "inputs": [ { "name": "to", "type": "address" } ],
+    "outputs": [ { "name": "tokensOut", "type": "uint256" } ]
+  },
+  {
+    "type": "function",
+    "name": "sell",
+    "stateMutability": "nonpayable",
+    "inputs": [ { "name": "from", "type": "address" }, { "name": "tokensIn", "type": "uint256" } ],
+    "outputs": [ { "name": "hbarOutWei", "type": "uint256" } ]
+  },
+  {
+    "type": "function",
+    "name": "getPriceForBuy",
+    "stateMutability": "view",
+    "inputs": [ { "name": "hbarInWei", "type": "uint256" } ],
+    "outputs": [ { "name": "tokensOut", "type": "uint256" } ]
+  },
+  {
+    "type": "function",
+    "name": "getPriceForSell",
+    "stateMutability": "view",
+    "inputs": [ { "name": "tokensIn", "type": "uint256" } ],
+    "outputs": [ { "name": "hbarOutWei", "type": "uint256" } ]
+  },
+  {
+    "type": "function",
+    "name": "reserves",
+    "stateMutability": "view",
+    "inputs": [],
+    "outputs": [ { "name": "hbarReserves", "type": "uint256" }, { "name": "tokenReserves", "type": "uint256" } ]
+  }
+]
+
