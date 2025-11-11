@@ -856,6 +856,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Built with ❤️ by the AutoDeFi LaunchPad Team**
 
-[Website](https://AutoDeFi.lol) • [GitHub](https://github.com/auto-defi/AutoDeFiLaunchPad) • [Factory](https://hashscan.io/testnet/contract/0xEEBed6dC5e12Ee6379A59c7C35fF80cE7853FE7B)
+[Website](https://AutoDeFi.lol) • [GitHub](https://github.com/auto-defi/AutoDeFiLaunchPad)  • [Pitch Deck](./pitch-1-3.pdf) • [Hashgraph Developer Certificate](./Johncert.pdf) • [Factory](https://hashscan.io/testnet/contract/0xEEBed6dC5e12Ee6379A59c7C35fF80cE7853FE7B)
 
 </div>
